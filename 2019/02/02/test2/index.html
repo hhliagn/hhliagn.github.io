@@ -78,7 +78,7 @@
 <link href="/hhliagn.github.io/css/main.css?v=5.1.2" rel="stylesheet" type="text/css">
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="linux,">
 
 
 
@@ -94,13 +94,26 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="Liang hh">
-<meta property="og:url" content="https://github.com/hhliagn/hhliagn.github.io/index.html">
+<meta name="description" content="这部分内容主要是基于一些关于Linux系统的内核基础和基本命令的学习总结，内容不全面，只讲述了其中的一小部分，后续会再补充，如有错误，还请见谅。 Linux操作系统 Linux操作系统博大精深，其中对线程，IO，文件系统等概念的实现都很有借鉴意义。 文件系统和VFS文件系统的inode上面讲过了。VFS主要用于屏蔽底层的不同文件系统，比如接入网络中的nfs文件系统，亦或是windows文件系统，正">
+<meta name="keywords" content="linux">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Linux内核与基础命令学习总结">
+<meta property="og:url" content="https://github.com/hhliagn/hhliagn.github.io/2019/02/02/test2/index.html">
 <meta property="og:site_name" content="Liang hh">
+<meta property="og:description" content="这部分内容主要是基于一些关于Linux系统的内核基础和基本命令的学习总结，内容不全面，只讲述了其中的一小部分，后续会再补充，如有错误，还请见谅。 Linux操作系统 Linux操作系统博大精深，其中对线程，IO，文件系统等概念的实现都很有借鉴意义。 文件系统和VFS文件系统的inode上面讲过了。VFS主要用于屏蔽底层的不同文件系统，比如接入网络中的nfs文件系统，亦或是windows文件系统，正">
 <meta property="og:locale" content="default">
+<meta property="og:image" content="http://images.cnblogs.com/OutliningIndicators/ExpandedBlockStart.gif">
+<meta property="og:image" content="http://common.cnblogs.com/images/copycode.gif">
+<meta property="og:image" content="http://common.cnblogs.com/images/copycode.gif">
+<meta property="og:image" content="http://images.cnblogs.com/OutliningIndicators/ExpandedBlockStart.gif">
+<meta property="og:image" content="http://common.cnblogs.com/images/copycode.gif">
+<meta property="og:image" content="http://common.cnblogs.com/images/copycode.gif">
+<meta property="og:image" content="https://img-blog.csdn.net/20180703221736541?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2E3MjQ4ODg=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70">
+<meta property="og:updated_time" content="2019-02-02T12:00:33.334Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Liang hh">
+<meta name="twitter:title" content="Linux内核与基础命令学习总结">
+<meta name="twitter:description" content="这部分内容主要是基于一些关于Linux系统的内核基础和基本命令的学习总结，内容不全面，只讲述了其中的一小部分，后续会再补充，如有错误，还请见谅。 Linux操作系统 Linux操作系统博大精深，其中对线程，IO，文件系统等概念的实现都很有借鉴意义。 文件系统和VFS文件系统的inode上面讲过了。VFS主要用于屏蔽底层的不同文件系统，比如接入网络中的nfs文件系统，亦或是windows文件系统，正">
+<meta name="twitter:image" content="http://images.cnblogs.com/OutliningIndicators/ExpandedBlockStart.gif">
 
 
 
@@ -129,13 +142,13 @@
 
 
 
-  <link rel="canonical" href="https://github.com/hhliagn/hhliagn.github.io/">
+  <link rel="canonical" href="https://github.com/hhliagn/hhliagn.github.io/2019/02/02/test2/">
 
 
 
 
 
-  <title>Liang hh</title>
+  <title>Linux内核与基础命令学习总结 | Liang hh</title>
   
 
 
@@ -160,9 +173,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-   page-home 
- ">
+  <div class="container sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
@@ -297,9 +308,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -329,9 +340,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/hhliagn.github.io/2019/02/02/test2/" itemprop="url">Linux内核与基础命令学习总结</a></h1>
+          <h1 class="post-title" itemprop="name headline">Linux内核与基础命令学习总结</h1>
         
 
         <div class="post-meta">
@@ -414,9 +423,7 @@
       
 
       
-        
-          
-            <p>这部分内容主要是基于一些关于Linux系统的内核基础和基本命令的学习总结，内容不全面，只讲述了其中的一小部分，后续会再补充，如有错误，还请见谅。</p>
+        <p>这部分内容主要是基于一些关于Linux系统的内核基础和基本命令的学习总结，内容不全面，只讲述了其中的一小部分，后续会再补充，如有错误，还请见谅。</p>
 <p>Linux操作系统</p>
 <p>Linux操作系统博大精深，其中对线程，IO，文件系统等概念的实现都很有借鉴意义。</p>
 <h2 id="文件系统和VFS"><a href="#文件系统和VFS" class="headerlink" title="文件系统和VFS"></a>文件系统和VFS</h2><p>文件系统的inode上面讲过了。VFS主要用于屏蔽底层的不同文件系统，比如接入网络中的nfs文件系统，亦或是windows文件系统，正常情况下难以办到，而vfs通过使用IO操作的posix规范来规定所有文件读写操作，每个文件系统只需要实现这些操作就可以接入VFS，不需要重新安装文件系统。</p>
@@ -619,8 +626,6 @@
 <h2 id="ifconfig"><a href="#ifconfig" class="headerlink" title="ifconfig"></a>ifconfig</h2><p>ifconfig用于查看和配置Linux系统的网络接口</p>
 <h2 id="uname"><a href="#uname" class="headerlink" title="uname"></a>uname</h2><p>uname可以显示一些重要的系统信息，例如内核名称、主机名、内核版本号、处理器类型之类的信息 </p>
 <h2 id="实际场景问题"><a href="#实际场景问题" class="headerlink" title="实际场景问题"></a>实际场景问题</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">1 cpu占用率</span><br><span class="line"></span><br><span class="line">top可以看</span><br><span class="line">ps看不了</span><br><span class="line">但是ps -aux可以看到各个线程的cpu和内存占用</span><br><span class="line"></span><br><span class="line">2 进程状态：</span><br><span class="line"></span><br><span class="line">ps -ef看不了</span><br><span class="line">ps aux可以看进程状态S R之类</span><br><span class="line"></span><br><span class="line">3 IO</span><br><span class="line">iostat查看io状态</span><br><span class="line"></span><br><span class="line">4网络</span><br><span class="line">netstat查看tcp连接状态和socket情况，</span><br><span class="line"></span><br><span class="line">ipconfig查看网络设备</span><br><span class="line"></span><br><span class="line">lsof可以查看端口使用情况</span><br><span class="line"></span><br><span class="line">5内存</span><br><span class="line">freetitle1</span><br></pre></td></tr></table></figure>
-          
-        
       
     </div>
     
@@ -635,134 +640,36 @@
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://github.com/hhliagn/hhliagn.github.io/hhliagn.github.io/2019/02/02/test/">
-
-    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="hhliagn">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/hhliagn.github.io/images/timggg.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Liang hh">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/hhliagn.github.io/2019/02/02/test/" itemprop="url">test</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-02-02T17:04:19+08:00">
-                2019-02-02
-              </time>
-            
-
-            
-
-            
-          </span>
-
+        <div class="post-tags">
           
-
+            <a href="/hhliagn.github.io/tags/linux/" rel="tag"># linux</a>
           
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>we start here.</p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
       
 
       
       
-        <div class="post-eof"></div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/hhliagn.github.io/2019/02/02/test/" rel="next" title="test">
+                <i class="fa fa-chevron-left"></i> test
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
       
     </footer>
   </div>
@@ -772,10 +679,11 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -783,6 +691,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -803,8 +715,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image" src="/hhliagn.github.io/images/timggg.jpg" alt="hhliagn">
           <p class="site-author-name" itemprop="name">hhliagn</p>
@@ -910,6 +831,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#文件系统和VFS"><span class="nav-text">文件系统和VFS</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#进程和线程"><span class="nav-text">进程和线程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#fork方法"><span class="nav-text">fork方法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#写时复制"><span class="nav-text">写时复制</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#父子进程，僵尸进程，孤儿进程，守护进程"><span class="nav-text">父子进程，僵尸进程，孤儿进程，守护进程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#进程组和会话"><span class="nav-text">进程组和会话</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#守护进程"><span class="nav-text">守护进程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#硬连接和软连接"><span class="nav-text">硬连接和软连接</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#线程"><span class="nav-text">线程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#线程模型"><span class="nav-text">线程模型</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#内核线程实现"><span class="nav-text">内核线程实现</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#文件系统"><span class="nav-text">文件系统</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#IO操作"><span class="nav-text">IO操作</span></a></li></ol><li class="nav-item nav-level-1"><a class="nav-link" href="#文件描述符"><span class="nav-text">文件描述符</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#write函数"><span class="nav-text">write函数</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#read函数"><span class="nav-text">read函数</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#read-write的语义：为什么会阻塞？"><span class="nav-text">read/write的语义：为什么会阻塞？</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Linux常用命令和基础知识"><span class="nav-text">Linux常用命令和基础知识</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#查看进程"><span class="nav-text">查看进程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#文件操作"><span class="nav-text">文件操作</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#权限操作"><span class="nav-text">权限操作</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#连接操作"><span class="nav-text">连接操作</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#获取内容"><span class="nav-text">获取内容</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#搜索和定位"><span class="nav-text">搜索和定位</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#压缩"><span class="nav-text">压缩</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#管道指令"><span class="nav-text">管道指令</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#正则"><span class="nav-text">正则</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#linux指令实践和常见场景"><span class="nav-text">linux指令实践和常见场景</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#查看进程状态"><span class="nav-text">查看进程状态</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#strace"><span class="nav-text">strace</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#tcpdump"><span class="nav-text">tcpdump</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#nc"><span class="nav-text">nc</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#curl"><span class="nav-text">curl</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#lsof"><span class="nav-text">lsof</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ss"><span class="nav-text">ss</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#awk-sed"><span class="nav-text">awk/sed</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#vim"><span class="nav-text">vim</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#crontab"><span class="nav-text">crontab</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#service"><span class="nav-text">service</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#free"><span class="nav-text">free</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#top"><span class="nav-text">top</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#df"><span class="nav-text">df</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#kill"><span class="nav-text">kill</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#mount"><span class="nav-text">mount</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#chmod"><span class="nav-text">chmod</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#chown"><span class="nav-text">chown</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ifconfig"><span class="nav-text">ifconfig</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#uname"><span class="nav-text">uname</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#实际场景问题"><span class="nav-text">实际场景问题</span></a></li></ol></li></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -1030,10 +967,10 @@
 
 
   
-    <script type="text/javascript" src="/hhliagn.github.io/js/src/scrollspy.js?v=5.1.2"></script>
+  <script type="text/javascript" src="/hhliagn.github.io/js/src/scrollspy.js?v=5.1.2"></script>
 <script type="text/javascript" src="/hhliagn.github.io/js/src/post-details.js?v=5.1.2"></script>
 
-  
+
 
   
 
