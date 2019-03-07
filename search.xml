@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title></title>
+    <title><![CDATA[Git部署项目到GitHub]]></title>
     <url>%2F2019%2F03%2F07%2FGit%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AE%E5%88%B0GitHub%2F</url>
-    <content type="text"><![CDATA[title:Git部署项目到GitHubdate:2019-03-07 21:43:05tags:[Git,GitHub] categories:[后端,项目管理]Git部署项目到GitHub创建远程仓库:github: New Repostitory 以下操作在项目根目录下进行 创建本地仓库:1.项目根目录下git bash: git init 生成新仓库 (项目根目录和.git同级) 或者TortoiseGit客户端在这里创建新的版本库 2.IDE中”VCS”-“VCS Operations Popup”-“Create Git Repository” 选择项目根目录即可 添加忽略列表:创建.gitignore文件, 放在项目根目录下 或者TortoiseGit客户端-添加到忽略文件 添加远程库:git remote add 远端名称 远程库ssh地址 git remote add RepositoryName git@github.com:username/RepositoryName.git 同步代码到远程库:git push -u 远端名称 分支名称 git push -u RepositoryName master 或者TortoiseGit客户端-推送 Github仓库克隆新建一个空目录 git clone git@github.com:username/RepositoryName.git 或者TortoiseGit客户端-Git克隆 Github拉取代码git fetch：相当于是从远程获取最新版本到本地，不会自动merge（合并代码） git pull：相当于是从远程拉取最新版本并merge到本地 或者TortoiseGit客户端-拉取 删除远程库git remote rm 远端名称 git remote rm RepositoryName]]></content>
+    <content type="text"><![CDATA[Git部署项目到GitHub创建远程仓库:github: New Repostitory 以下操作在项目根目录下进行 创建本地仓库:1.项目根目录下git bash: git init 生成新仓库 (项目根目录和.git同级) 或者TortoiseGit客户端在这里创建新的版本库 2.IDE中”VCS”-“VCS Operations Popup”-“Create Git Repository” 选择项目根目录即可 添加忽略列表:创建.gitignore文件, 放在项目根目录下 或者TortoiseGit客户端-添加到忽略文件 添加远程库:git remote add 远端名称 远程库ssh地址 git remote add RepositoryName git@github.com:username/RepositoryName.git 同步代码到远程库:git push -u 远端名称 分支名称 git push -u RepositoryName master 或者TortoiseGit客户端-推送 Github仓库克隆新建一个空目录 git clone git@github.com:username/RepositoryName.git 或者TortoiseGit客户端-Git克隆 Github拉取代码git fetch：相当于是从远程获取最新版本到本地，不会自动merge（合并代码） git pull：相当于是从远程拉取最新版本并merge到本地 或者TortoiseGit客户端-拉取 删除远程库git remote rm 远端名称 git remote rm RepositoryName]]></content>
+      <categories>
+        <category>后端</category>
+        <category>项目管理</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>GitHub</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[java基础2_基本数据类型和常量池]]></title>
