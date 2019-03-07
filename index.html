@@ -94,16 +94,16 @@
 
 
 
-<meta name="description" content="你必须每天证明你自己">
+<meta name="description" content="open minded.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="HHLIANG">
 <meta property="og:url" content="https://hhliagn.github.io/index.html">
 <meta property="og:site_name" content="HHLIANG">
-<meta property="og:description" content="你必须每天证明你自己">
+<meta property="og:description" content="open minded.">
 <meta property="og:locale" content="zh-Hans">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="HHLIANG">
-<meta name="twitter:description" content="你必须每天证明你自己">
+<meta name="twitter:description" content="open minded.">
 
 
 
@@ -181,7 +181,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle">挑战与机遇</p>
+        <p class="site-subtitle">��ս�����</p>
       
   </div>
 
@@ -269,6 +269,149 @@
           <div id="content" class="content">
             
   <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://hhliagn.github.io/2019/03/07/Git部署项目到GitHub/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="lhh">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/timggg.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="HHLIANG">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/03/07/Git部署项目到GitHub/" itemprop="url">未命名</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-07T21:43:05+08:00">
+                2019-03-07
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <hr>
+<p>title:Git部署项目到GitHub<br>date:2019-03-07 21:43:05<br>tags:[Git,GitHub]</p>
+<h2 id="categories-后端-项目管理"><a href="#categories-后端-项目管理" class="headerlink" title="categories:[后端,项目管理]"></a>categories:[后端,项目管理]</h2><h3 id="Git部署项目到GitHub"><a href="#Git部署项目到GitHub" class="headerlink" title="Git部署项目到GitHub"></a>Git部署项目到GitHub</h3><h4 id="创建远程仓库"><a href="#创建远程仓库" class="headerlink" title="创建远程仓库:"></a>创建远程仓库:</h4><p>github: New Repostitory</p>
+<blockquote>
+<p>以下操作在项目根目录下进行</p>
+</blockquote>
+<h4 id="创建本地仓库"><a href="#创建本地仓库" class="headerlink" title="创建本地仓库:"></a>创建本地仓库:</h4><p>1.项目根目录下git bash: git init 生成新仓库   (项目根目录和.git同级)  </p>
+<p>或者TortoiseGit客户端在这里创建新的版本库</p>
+<p>2.IDE中”VCS”-“VCS Operations Popup”-“Create Git Repository”  选择项目根目录即可</p>
+<h4 id="添加忽略列表"><a href="#添加忽略列表" class="headerlink" title="添加忽略列表:"></a>添加忽略列表:</h4><p>创建.gitignore文件, 放在项目根目录下</p>
+<p>或者TortoiseGit客户端-添加到忽略文件</p>
+<h4 id="添加远程库"><a href="#添加远程库" class="headerlink" title="添加远程库:"></a>添加远程库:</h4><p>git remote add  远端名称  远程库ssh地址</p>
+<p>git remote add RepositoryName  <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>:username/RepositoryName.git</p>
+<h4 id="同步代码到远程库"><a href="#同步代码到远程库" class="headerlink" title="同步代码到远程库:"></a>同步代码到远程库:</h4><p>git push -u 远端名称 分支名称</p>
+<p>git push -u  RepositoryName  master</p>
+<p>或者TortoiseGit客户端-推送</p>
+<h4 id="Github仓库克隆"><a href="#Github仓库克隆" class="headerlink" title="Github仓库克隆"></a>Github仓库克隆</h4><p>新建一个空目录</p>
+<p>git clone   <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>:username/RepositoryName.git</p>
+<p>或者TortoiseGit客户端-Git克隆</p>
+<h4 id="Github拉取代码"><a href="#Github拉取代码" class="headerlink" title="Github拉取代码"></a>Github拉取代码</h4><p>git fetch：相当于是从远程获取最新版本到本地，不会自动merge（合并代码）</p>
+<p>git pull：相当于是从远程拉取最新版本并merge到本地</p>
+<p>或者TortoiseGit客户端-拉取</p>
+<h4 id="删除远程库"><a href="#删除远程库" class="headerlink" title="删除远程库"></a>删除远程库</h4><p>git remote rm 远端名称</p>
+<p>git remote rm RepositoryName</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
     
       
 
@@ -387,7 +530,8 @@
       
         
           
-            <h4 id="基本数据类型大小"><a href="#基本数据类型大小" class="headerlink" title="基本数据类型大小"></a>基本数据类型大小</h4><p>int  32位  4字节</p>
+            <p>转载自:<a href="http://h2pl.github.io" target="_blank" rel="noopener">http://h2pl.github.io</a> 作者:h2pl</p>
+<h4 id="基本数据类型大小"><a href="#基本数据类型大小" class="headerlink" title="基本数据类型大小"></a>基本数据类型大小</h4><p>int  32位  4字节</p>
 <p>double  64位  8字节</p>
 <p>short  16位</p>
 <p>long  64位  8字节  -2的63次方~2的63次方-1</p>
@@ -571,8 +715,9 @@
       
         
           
-            <h4 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h4><p>Java中的继承只能单继承，但是可以通过内部类继承其他类来实现多继承。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">public class Son extends Father&#123;</span><br><span class="line">public void go () &#123;</span><br><span class="line">System.out.println(&quot;son go&quot;);</span><br><span class="line">&#125;</span><br><span class="line">public void eat () &#123;</span><br><span class="line">System.out.println(&quot;son eat&quot;);</span><br><span class="line">&#125;</span><br><span class="line">public void sleep() &#123;</span><br><span class="line">System.out.println(&quot;zzzzzz&quot;);</span><br><span class="line">&#125;</span><br><span class="line">public void cook() &#123;</span><br><span class="line">//匿名内部类实现的多继承</span><br><span class="line">new Mother().cook();</span><br><span class="line">//内部类继承第二个父类来实现多继承</span><br><span class="line">Mom mom = new Mom();</span><br><span class="line">mom.cook();</span><br><span class="line">&#125;</span><br><span class="line">private class Mom extends Mother &#123;</span><br><span class="line">@Override</span><br><span class="line">public void cook() &#123;</span><br><span class="line">System.out.println(&quot;mom cook&quot;);</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+            <p>转载自:<a href="http://h2pl.github.io" target="_blank" rel="noopener">http://h2pl.github.io</a> 作者:h2pl</p>
+<h4 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h4><p>Java中的继承只能单继承，但是可以通过内部类继承其他类来实现多继承。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Son</span> <span class="keyword">extends</span> <span class="title">Father</span></span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">go</span> <span class="params">()</span> </span>&#123;</span><br><span class="line">    System.out.println(<span class="string">"son go"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">eat</span> <span class="params">()</span> </span>&#123;</span><br><span class="line">    System.out.println(<span class="string">"son eat"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">sleep</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    System.out.println(<span class="string">"zzzzzz"</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">cook</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="comment">//匿名内部类实现的多继承</span></span><br><span class="line">        <span class="keyword">new</span> Mother().cook();</span><br><span class="line">        <span class="comment">//内部类继承第二个父类来实现多继承</span></span><br><span class="line">        Mom mom = <span class="keyword">new</span> Mom();</span><br><span class="line">        mom.cook();</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">/*private class Mom extends 抽象类&#123; //内部类继承抽象类</span></span><br><span class="line"><span class="comment">        @Override</span></span><br><span class="line"><span class="comment">        public void cook() &#123;</span></span><br><span class="line"><span class="comment">            System.out.println("mom cook");</span></span><br><span class="line"><span class="comment">        &#125;</span></span><br><span class="line"><span class="comment">    &#125;*/</span></span><br><span class="line">    <span class="keyword">private</span> <span class="class"><span class="keyword">class</span> <span class="title">Mom</span> <span class="keyword">extends</span> <span class="title">Mother</span> <span class="keyword">implements</span> 接口,接口1</span>&#123; <span class="comment">//内部类继承非抽象类并实现多个接口</span></span><br><span class="line">        <span class="meta">@Override</span></span><br><span class="line">        <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">cook</span><span class="params">()</span> </span>&#123;</span><br><span class="line">            System.out.println(<span class="string">"mom cook"</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h4 id="封装"><a href="#封装" class="headerlink" title="封装"></a>封装</h4><p>封装主要是因为Java有访问权限的控制。public &gt; protected &gt; package = default &gt; private。封装可以保护类中的信息，只提供想要被外界访问的信息。</p>
 <p>类的访问范围</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">A、public     包内、包外，所有类中可见</span><br><span class="line">B、protected  包内所有类可见，包外有继承关系的子类可见(子类对象可调用)</span><br><span class="line">C、(default)  表示默认，不仅本类访问，而且是同包可。</span><br><span class="line">D、private    仅在同一类中可见</span><br></pre></td></tr></table></figure>
@@ -657,7 +802,7 @@
           <img class="site-author-image" itemprop="image" src="/images/timggg.jpg" alt="lhh">
           <p class="site-author-name" itemprop="name">lhh</p>
            
-              <p class="site-description motion-element" itemprop="description">你必须每天证明你自己</p>
+              <p class="site-description motion-element" itemprop="description">open minded.</p>
           
         </div>
         <nav class="site-state motion-element">
@@ -665,7 +810,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -714,23 +859,23 @@
               </span>
             
               <span class="links-of-author-item">
-                <a href="https://www.douban.com/people/180015671/" target="_blank" title="豆瓣">
+                <a href="https://www.douban.com/people/180015671/" target="_blank" title="����">
                   
                     <i class="fa fa-fw fa-globe"></i>
                   
                     
-                      豆瓣
+                      ����
                     
                 </a>
               </span>
             
               <span class="links-of-author-item">
-                <a href="https://www.zhihu.com/people/joe-leung-61" target="_blank" title="知乎">
+                <a href="https://www.zhihu.com/people/joe-leung-61" target="_blank" title="֪��">
                   
                     <i class="fa fa-fw fa-globe"></i>
                   
                     
-                      知乎
+                      ֪��
                     
                 </a>
               </span>
