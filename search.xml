@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Git部署项目到GitHub]]></title>
-    <url>%2F2019%2F03%2F07%2FGit%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AE%E5%88%B0GitHub%2F</url>
-    <content type="text"><![CDATA[Git部署项目到GitHub创建远程仓库:github: New Repostitory 以下操作在项目根目录下进行 创建本地仓库:1.项目根目录下git bash: git init 生成新仓库 (项目根目录和.git同级) 或者TortoiseGit客户端在这里创建新的版本库 2.IDE中”VCS”-“VCS Operations Popup”-“Create Git Repository” 选择项目根目录即可 添加忽略列表:创建.gitignore文件, 放在项目根目录下 或者TortoiseGit客户端-添加到忽略文件 添加远程库:git remote add 远端名称 远程库ssh地址 git remote add RepositoryName git@github.com:username/RepositoryName.git 同步代码到远程库:git push -u 远端名称 分支名称 git push -u RepositoryName master 或者TortoiseGit客户端-推送 Github仓库克隆新建一个空目录 git clone git@github.com:username/RepositoryName.git 或者TortoiseGit客户端-Git克隆 Github拉取代码git fetch：相当于是从远程获取最新版本到本地，不会自动merge（合并代码） git pull：相当于是从远程拉取最新版本并merge到本地 或者TortoiseGit客户端-拉取 删除远程库git remote rm 远端名称 git remote rm RepositoryName]]></content>
+    <title><![CDATA[人生需要放下的八件事]]></title>
+    <url>%2F2019%2F06%2F05%2F%E4%BA%BA%E7%94%9F%E9%9C%80%E8%A6%81%E6%94%BE%E4%B8%8B%E7%9A%84%E5%85%AB%E4%BB%B6%E4%BA%8B%2F</url>
+    <content type="text"><![CDATA[转： 1、放下压力 累与不累，取决于自己的心态 心灵的房间，不打扫就会落满灰尘。蒙尘的心，会变得灰色和迷茫。我们每天都要经历很多事情，开心的，不开心的，都在心里安家落户。心里的事情一多，就会变得杂乱无序，然后心也跟着乱起来。有些痛苦的情绪和不愉快的记忆，如果充斥在心里，就会使人委靡不振。所以，扫地除尘，能够使黯然的心变得亮堂；把事情理清楚，才能告别烦乱；把一些无谓的痛苦扔掉，快乐就有了更多更大的空间。 紧紧抓住不快乐的理由，无视快乐的理由，就是你总是觉得难受的原因了。 2、放下烦 快乐其实很简单 所谓练习微笑，不是机械地挪动你的面部表情，而是努力地改变你的心态，调节你的心情。学会平静地接受现实，学会对自己说声顺其自然，学会坦然地面对厄运，学会积极地看待人生，学会凡事都往好处想。这样，阳光就会流进心里来，驱走恐惧，驱走黑暗，驱走所有的阴霾。 快乐其实很简单，不要自己不快乐就可以了。 3、放下自卑 把自卑从你的字典里删去 不是每个人都可以成为伟人，但每个人都可以成为内心强大的人。内心的强大，能够稀释一切痛苦和哀愁；内心的强大，能够有效弥补你外在的不足；内心的强大，能够让你无所畏惧地走在大路上，感到自己的思想，高过所有的建筑和山峰！ 相信自己，找准自己的位置，你同样可以拥有一个有价值的人生。 4、放下懒惰 奋斗改变命运 不要一味地羡慕人家的绝活与绝招，通过恒久的努力，你也完全可以拥有。因为，把一个简单的动作练到出神入化，就是绝招；把一件平凡的小事做到炉火纯青，就是绝活。 提醒自己，记住自己的提醒，上进的你，快乐的你，健康的你，善良的你，一定会有一个灿烂的人生。 5、放下消极 绝望向左，希望向右 如果你想成为一个成功的人，那么，请为“最好的自己”加油吧，让积极打败消极，让高尚打败鄙陋，让真诚打败虚伪，让宽容打败褊狭，让快乐打败忧郁，让勤奋打败懒惰，让坚强打败脆弱，让伟大打败猥琐……只要你愿意，你完全可以一辈子都做最好的自己。 没有谁能够左右胜负，除了你。自己的战争，你就是运筹帷幄的将军！ 不是所有的梦想都能成为美好的现实，但美丽的梦想同样可以装点出生活。 6、放下抱怨 与其抱怨，不如努力 所有的失败都是为成功做准备。抱怨和泄气，只能阻碍成功向自己走来的步伐。放下抱怨，心平气和地接受失败，无疑是智者的姿态。 抱怨无法改变现状，拼搏才能带来希望。真的金子，只要自己不把自己埋没，只要一心想着闪光，就总有闪光的那一天。 纵观古今中外，很多人生的奇迹，都是那些最初拿了一手坏牌的人创造的。 不要总是烦恼生活。不要总以为生活辜负了你什么，其实，你跟别人拥有的一样多。 7、放下犹豫 立即行动，成功无限 认准了的事情，不要优柔寡断；选准了一个方向，就只管上路，不要回头。机遇就像闪电，只有快速果断才能将它捕获。 立即行动是所有成功人士共同的特质。如果你有什么好的想法，那就立即行动吧；如果你遇到了一个好的机遇，那就立即抓住吧。立即行动，成功无限！ 有些人是必须忘记的，有些事是用来反省的，有些东西是不能不清理的。该放手时就放手，你才可以腾出手来，抓住原本属于你的快乐和幸福！ 有些事情是不能等待的，一时的犹豫，留下的将是永远的遗憾！ 8、放下狭隘 心宽，天地就宽 宽容是一种美德。宽容别人，其实也是给自己的心灵让路。只有在宽容的世界里，人，才能奏出和谐的生命之歌！ 要想没有偏见，就要创造一个宽容的社会。要想根除偏见，就要首先根除狭隘的思想。只有远离偏见，才有人与内心的和谐，人与人的和谐，人与社会的和谐。 我们不但要自己快乐，还要把自己的快乐分享给朋友、家人甚至素不相识的陌生人。因为分享快乐本身就是一种快乐，一种更高境界的快乐。 宽容是一种美德。宽容别人，其实也是给自己的心灵让路。只有在宽容的世界里，人，才能奏出和谐的生命之歌！事业沉浮，适当放下定输赢 为人处事，勇于放下事通达 心灵鸡汤，学会放下享轻松 职场生涯，懂得放下路宽阔 情感密码，舍得放下求多姿 人际交往，适度放下是智慧 放下，是一种心态 更是一种心灵的自由解脱 放下压力——累与不累，源于心态 放下烦忧——快乐与否，取于心情 放下堕落——绝望在右，希望在左 放下犹豫——行动起来，成功元限 放下狭隘——心灵豁然，天地宽广]]></content>
       <categories>
-        <category>后端</category>
-        <category>项目管理</category>
+        <category>情感</category>
       </categories>
       <tags>
-        <tag>Git</tag>
-        <tag>GitHub</tag>
+        <tag>个人情感</tag>
       </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>%2F2019%2F03%2F07%2FGit%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AE%E5%88%B0GitHub%2F</url>
+    <content type="text"><![CDATA[title:Git部署项目到GitHubdate:2019-03-07 21:43:05tags:[Git,GitHub] categories:[后端,项目管理]Git部署项目到GitHub创建远程仓库:github: New Repostitory 以下操作在项目根目录下进行 创建本地仓库:1.项目根目录下git bash: git init 生成新仓库 (项目根目录和.git同级) 或者TortoiseGit客户端在这里创建新的版本库 2.IDE中”VCS”-“VCS Operations Popup”-“Create Git Repository” 选择项目根目录即可 添加忽略列表:创建.gitignore文件, 放在项目根目录下 或者TortoiseGit客户端-添加到忽略文件 添加远程库:git remote add 远端名称 远程库ssh地址 git remote add RepositoryName git@github.com:username/RepositoryName.git 同步代码到远程库:git push -u 远端名称 分支名称 git push -u RepositoryName master 或者TortoiseGit客户端-推送 Github仓库克隆新建一个空目录 git clone git@github.com:username/RepositoryName.git 或者TortoiseGit客户端-Git克隆 Github拉取代码git fetch：相当于是从远程获取最新版本到本地，不会自动merge（合并代码） git pull：相当于是从远程拉取最新版本并merge到本地 或者TortoiseGit客户端-拉取 删除远程库git remote rm 远端名称 git remote rm RepositoryName]]></content>
   </entry>
   <entry>
     <title><![CDATA[java基础2_基本数据类型和常量池]]></title>
